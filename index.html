@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maths with JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="math-heading">Let's Explore Maths!</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="math-info">Click below to learn a math fact and change the style.</p>
+      <button onclick="showMathFact()">Show Math Fact</button>
+    </section>
+
+    <section>
+      <p>Click to generate a random math question:</p>
+      <button onclick="generateQuestion()">Generate Question</button>
+      <div id="question-box"></div>
+    </section>
+
+    <section>
+      <button onclick="toggleDefinition()">Add/Remove Definition</button>
+      <div id="definition-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maths & Code</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
